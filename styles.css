@@ -3,7 +3,32 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1, h2, p {
+    text-align: center;
+}
+
 img {
     width: 400px;
     height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid green;
+}
+
+.recipe-list {
+    padding: 20px;
+    border: 10px solid red;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.recipe {
+    padding: 8px;
+    text-align: center;
+}
+
+.list {
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
 }
